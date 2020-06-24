@@ -1,0 +1,26 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+           <title> Is today new year?</title>
+           <style>
+               p{
+                   color: darkolivegreen;
+                   text-align: center;
+               }
+           </style>
+    </head>
+    <body>
+        <p>
+            I love this world!
+        </p>
+            {% if new_year %}
+            <p>Yes,Today is the new year</p>
+            {% else %}
+            <p>N0, wait for your new year holiday</p>
+            {%endif%}
+
+        <a href="{{url_for('more')}}">more here</a>    
+
+
+    </body>
+    </html>
